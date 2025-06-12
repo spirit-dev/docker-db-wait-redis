@@ -1,19 +1,30 @@
 # db-wait-redis
 
-> This image is based on the work done by true chart.
-> The main issue is that those guys are only build an amd64 image ! shame !
->
-> The links with their work is available here:
->
-> - [TCCR Alpine base image](https://github.com/truecharts/public/blob/master/containers/base/alpine/Dockerfile)
-> - [DB Wait Redis image](https://github.com/truecharts/public/blob/master/containers/apps/db-wait-redis/Dockerfile)
-> - [Docker image on Quay.io](https://quay.io/repository/truecharts/db-wait-redis)
+<!-- More info: https://github.com/Ileriayo/markdown-badges -->
+<!-- More info: https://shields.io/badges -->
+<!-- More info: https://badgesgenerator.com/ -->
 
-[[_TOC_]]
+[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-db_wait_redis-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-db-wait-redis) <!-- markdownlint-disable MD041 -->
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-db_wait_redis-blue?style=for-the-badge&logo=github)](https://github.com/orgs/spirit-dev/docker-db-wait-redis)
+[![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=db-wait-redis&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/db-wait-redis)
+
+<!--TOC-->
+
+- [Documentation](#documentation)
+  - [Os](#os)
+- [TEST](#test)
+  - [Prerequisite](#prerequisite)
+  - [Linux](#linux)
+  - [MacOS](#macos)
+  - [Others](#others)
+  - [Usage](#usage)
+- [Resource](#resource)
+
+<!--TOC-->
 
 This repository is dedicated to oficial images used in our differents projects / microservices
 
-**Technically speaking**
+**Technically speaking** <!-- markdownlint-disable MD036 -->
 
 - CICD in place to ease build and push of images
 - Testing solution for images
@@ -35,9 +46,9 @@ This repository is dedicated to oficial images used in our differents projects /
 
 ### Os
 
-- [**Alpine**](images/os/alpine/Readme.md)
+- [**Alpine**](https://gitlab-internal.spirit-dev.net/infrastructure/docker/db-wait-redis)
 
-## Test
+## TEST
 
 ### Prerequisite
 
