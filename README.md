@@ -5,7 +5,7 @@
 <!-- More info: https://badgesgenerator.com/ -->
 
 [![GitLab Sync](https://img.shields.io/badge/gitlab_sync-db_wait_redis-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-db-wait-redis) <!-- markdownlint-disable MD041 -->
-[![GitHub Mirror](https://img.shields.io/badge/github_mirror-db_wait_redis-blue?style=for-the-badge&logo=github)](https://github.com/orgs/spirit-dev/docker-db-wait-redis)
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-db_wait_redis-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/docker-db-wait-redis)
 [![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=db-wait-redis&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/db-wait-redis)
 
 <!--TOC-->
